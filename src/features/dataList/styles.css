@@ -1,0 +1,22 @@
+.actions button {
+    margin-right: 10px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagination button {
+    margin-left: 10px;
+}
+.text-overflow {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+.datalist-table{
+    table-layout: fixed;
+    overflow-wrap: break-word;
+}
